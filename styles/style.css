@@ -1,0 +1,46 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   color: black;
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+   background-color: aliceblue;
+}
+
+header{
+    margin-top: 0;
+    padding-top: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 8888;
+    font-size:large;
+}  
+
+.cards {
+   display: flex;
+   overflow: hidden;
+   /* Para esconder overflow dos slides */
+}
+
+.card {
+   display: none;
+   /* Esconder todos os slides inicialmente */
+   flex: 1 0 100%;
+   /* Faz cada slide ocupar toda a largura */
+   position: relative;
+   /* Necessário para posicionamento absoluto dos botões */
+}
+
+.card img {
+   width: 100%;
+   height: auto;
+}
+
+.card button {
+   position: absolute;
+   bottom: 10px;
+   left: 50%;
+   transform: translateX(-50%);
+}

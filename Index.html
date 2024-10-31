@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Sorriso Perfeito - Landing Page</title>
+   <script src="scripts/script.js"></script>
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+   <!--CABEÇALHO NICE-->
+   <header style="background-color: #1c3f60;">
+      <img src="interatividade/assets/Logo.png" alt="">
+   </header>
+
+   <!--PAGINA PRINCIPAL-->
+   <main>
+
+      <!--PARTE DO HOME-->
+      <div name="Home">
+         <p>
+            Na Sorriso Perfeito, estamos comprometidos em transformar sorrisos e promover a saúde bucal de nossos
+            pacientes. Nossa equipe de dentistas altamente qualificados oferece uma ampla gama de serviços, desde
+            tratamentos preventivos até soluções estéticas. Utilizamos tecnologia de ponta e práticas atualizadas para
+            garantir um atendimento de excelência e conforto. Aqui, você encontrará um ambiente acolhedor e dedicado ao
+            seu bem-estar. Venha nos visitar e descubra como podemos ajudar a manter seu sorriso saudável e radiante!
+         </p>
+         <p>Serviços em Destaque: Limpeza dental, Restaurações, Clareamento Dental</p>
+      </div>
+
+
+      <!--LISTA DOS SERVICOS-->
+      <div name="ListaServico">
+
+      </div>
+
+      <!--SLIDE PROS SORRISOS-->
+      <div name="SlideSorriso">
+
+         <input type="radio" name="slider" id="item1" checked>
+         <input type="radio" name="slider" id="item2">
+         <input type="radio" name="slider" id="item3">
+
+         <div class="fotos">
+
+            <label class="foto" for="item1" id="song1">
+               <img src="interatividade/assets/side-view-smiley-man-skin-texture.jpg" alt="">
+               <button>Comprar Agora</button>
+            </label>
+
+            <label class="foto" for="item2" id="song2">
+               <img src="interatividade/assets/skyscraper-backdrop-downtown-modern-footpath-landscape.jpg">
+               <button>Comprar Agora</button>
+            </label>
+
+            <label class="foto" for="item3" id="song3">
+               <img src="interatividade/assets/smiling-brunette-girl-posing-with-coat.jpg">
+               <button>Comprar Agora</button>
+            </label>
+
+         </div>
+
+         <script>
+            const radios = document.querySelectorAll('input[name="slider"]');
+            let index = 0;
+
+            // Função para mudar o slide automaticamente
+            function changeSlide() {
+               radios[index].checked = true; // Marcar o próximo botão de rádio
+               index = (index + 1) % radios.length; // Avançar para o próximo slide circularmente
+            }
+
+            // Intervalo para trocar os slides automaticamente (a cada 3 segundos neste exemplo)
+            setInterval(changeSlide, 3000);
+         </script>
+      </div>
+
+   </main>
+
+   <footer>
+
+   </footer>
+
+</body>
+
+
+
+</html>
