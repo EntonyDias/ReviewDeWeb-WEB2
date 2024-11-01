@@ -10,9 +10,9 @@ A **Sorriso Perfeito** é uma clínica odontológica fictícia, e este projeto c
 
 ### Estrutura do Projeto
 
-- **Home**: Apresentação sobre o consultório e um breve resumo dos serviços.
+- **Home**: Apresentação sobre o consultório e um breve resumo sobre da clínica.
 - **Serviços**: Detalhamento dos principais serviços oferecidos.
-- **Galeria de Sorrisos**: Exposição de imagens de antes e depois.
+- **Galeria de Sorrisos**: Exposição de imagens dos clientes sorridentes.
 - **Depoimentos**: Comentários e avaliações de pacientes fictícios.
 - **Contato**: Formulário para facilitar a comunicação com os visitantes.
 
@@ -50,11 +50,11 @@ As tecnologias e ferramentas utilizadas neste projeto são:
 
 ## Como Executar o Projeto
 Clone o repositório em sua máquina local:
-git clone https://github.com/seu_usuario/projeto-sorriso-perfeito.git
+git clone https://github.com/EntonyDias/ReviewDeWeb-WEB2.git
 Navegue até o diretório do projeto:
 cd projeto-sorriso-perfeito
 Abra o arquivo index.html em seu navegador.
 Dica: Você pode usar uma extensão de servidor local no VS Code, como Live Server, para visualizar o projeto com recarregamento automático.
 ## Desenvolvedor
-Nome do Aluno: [Seu Nome Aqui]
-Contato: [Seu E-mail Aqui]
+Nome do Aluno: [Entony]
+Contato: [entonydias07@gmail.com]
