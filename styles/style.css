@@ -3,8 +3,7 @@
    padding: 0;
 }
 
- html,
-body {
+html, body {
    margin: 0;
    padding: 0;
    color: black;
@@ -12,6 +11,8 @@ body {
    font-weight: 100;
    font-style: normal;
    background-color: aliceblue;
+   overflow-y: scroll;
+   scrollbar-width: none;
 }
 
 header {
@@ -22,9 +23,62 @@ header {
    width: 100%;
    z-index: 8888;
    font-size: large;
-} 
+}
+
+main {
+   background-color: aliceblue;
+}
+
+.Home {
+   text-align: center;
+   background-color: aqua;
+}
+
+#TextMainHome {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+}
+
+#textAbout {
+   display: none;
+}
+
+#buttonAbout {
+   display: flex;
+   cursor: pointer;
+   color: inherit;
+   font: inherit;
+   float: inline-end;
+   padding: 3px;
+   background-color: aliceblue;
+   outline: none;
+   border-color: #1c3f60;
+   margin: 1px;
+}
 
 .carousel-item img {
-  max-width: 200px;
-  max-height: 300px;
+   max-width: 200px;
+   max-height: 300px;
 }
+
+footer {
+   display: flex;
+   background-color: #1c3f60;
+}
+
+footer p {
+   margin-top: 8px;
+}
+
+#github{
+   float: inline-start;
+   padding-left: 18%;
+}
+
+#linkedin {
+   float: inline-end;
+   padding-right: 18%;
+}
+

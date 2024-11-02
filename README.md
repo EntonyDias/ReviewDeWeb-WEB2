@@ -1,10 +1,11 @@
 #  Projeto Sorriso Perfeito - Landing Page
 
-![Banner do Projeto](https://via.placeholder.com/1200x300.png?text=Sorriso+Perfeito+-+Landing+Page+Projeto)
+![Banner do Projeto](./interatividade/assets/Logo.png)
 
 ##  Sobre o Projeto
 
-A **Sorriso Perfeito** é uma clínica odontológica fictícia, e este projeto consiste em criar uma landing page responsiva e moderna para divulgar seus serviços, depoimentos de clientes e facilitar o contato com potenciais pacientes. Este projeto utiliza **HTML**, **CSS** e **JavaScript** para criar uma experiência interativa e fluida.
+A **Sorriso Perfeito** é uma clínica odontológica fictícia, e este projeto consiste em criar uma landing page responsiva e moderna para divulgar seus serviços, depoimentos de clientes e facilitar o contato com potenciais pacientes. \
+Este projeto utiliza **HTML**, **CSS** e **JavaScript** para criar uma experiência interativa e fluida.
 
 ##  Visão Geral
 
@@ -50,11 +51,11 @@ As tecnologias e ferramentas utilizadas neste projeto são:
 
 ## Como Executar o Projeto
 Clone o repositório em sua máquina local:
-git clone https://github.com/EntonyDias/ReviewDeWeb-WEB2.git
+git clone https://github.com/EntonyDias/ReviewDeWeb-WEB2.git \
 Navegue até o diretório do projeto:
-cd projeto-sorriso-perfeito
-Abra o arquivo index.html em seu navegador.
+cd projeto-sorriso-perfeito \
+Abra o arquivo index.html em seu navegador. \
 Dica: Você pode usar uma extensão de servidor local no VS Code, como Live Server, para visualizar o projeto com recarregamento automático.
 ## Desenvolvedor
-Nome do Aluno: [Entony]
-Contato: [entonydias07@gmail.com]
+- Aluno: [Entony]
+- Contato: [entonydias07@gmail.com]

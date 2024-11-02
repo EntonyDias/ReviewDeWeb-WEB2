@@ -5,7 +5,6 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sorriso Perfeito - Landing Page</title>
-
    <link rel="stylesheet" href="./styles/style.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,72 +14,82 @@
 <body>
 
    <!--CABEÇALHO NICE-->
-   <header style="background-color: #1c3f60;">
-      <img src="interatividade/assets/Logo.png" alt="">
+   <header style="background-color: #1c3f60; margin: 0; padding: 0;">
+      <img src="interatividade/assets/Logo.png" alt="Logo">
    </header>
-
+   <!--FIM CABEÇALHO-->
 
 
    <!--PAGINA PRINCIPAL-->
-   <main>
+   <main style="padding-bottom: 10px;">
 
-      <!--PARTE DO HOME-->
-      <div name="Home">
-         <button type="button" onclick="visibilidadeAbout()" id="buttonAbout">Sobre</button>
-         <p>
-            Na Sorriso Perfeito, estamos comprometidos em transformar sorrisos e promover a saúde bucal de nossos
-            pacientes.
-         </p>
-         <p id="textAbout">Nossa equipe de dentistas altamente qualificados oferece uma ampla gama de serviços, desde
-            tratamentos preventivos até soluções estéticas. Utilizamos tecnologia de ponta e práticas atualizadas para
-            garantir um atendimento de excelência e conforto. Aqui, você encontrará um ambiente acolhedor e dedicado ao
-            seu bem-estar. Venha nos visitar e descubra como podemos ajudar a manter seu sorriso saudável e radiante!</p>
-         <p>Serviços em Destaque: Limpeza dental, Restaurações, Clareamento Dental</p>
+      <!--INICIO HOME-->
+      <div name="Home" class="Home">
+         <div class="homeCima">
+            <button type="button" onclick="visibilidadeAbout()" id="buttonAbout"> ⬆️Sobre⬆️ </button>
+            <p id="TextMainHome">
+               Estamos comprometidos em transformar sorrisos e promover a saúde bucal de nossos pacientes.
+            </p>
+             
+         </div>
+
+         <div class="homeBaixo">
+            <p id="textAbout">Nossa equipe de dentistas altamente qualificados oferece uma ampla gama de serviços, desde
+               tratamentos preventivos até soluções estéticas. Utilizamos tecnologia de ponta e práticas atualizadas
+               para
+               garantir um atendimento de excelência e conforto. Aqui, você encontrará um ambiente acolhedor e dedicado
+               ao
+               seu bem-estar. Venha nos visitar e descubra como podemos ajudar a manter seu sorriso saudável e radiante!
+            </p>
+            <p id="textDestaque">Serviços em Destaque: Limpeza dental, Restaurações, Clareamento Dental</p>
+         </div>
+         
       </div>
+      <!--FIM HOME-->
 
 
-      <!--LISTA DOS SERVICOS-->
+      <!--LISTA SERVICOS-->
       <div name="ListaServico">
-         <p>Limpeza dental
-            Restaurações
-            Tratamento de canal
-            Extração de dentes
-            Clareamento dental
-            Ortodontia (aparelhos)
-            Prótese dentária
-            Implantes dentários
-            Odontopediatria
-            Tratamento de gengivite e periodontite
-            Radiografias dentárias
-            pacientes ficticios
-            Aplicação de flúor
+         <p>Serviços: <br>
+            Limpeza dental <br>
+            Restaurações <br>
+            Tratamento de canal <br>
+            Extração de dentes <br>
+            Clareamento dental <br>
+            Ortodontia (aparelhos) <br>
+            Prótese dentária <br>
+            Implantes dentários <br>
+            Odontopediatria <br>
+            Tratamento de gengivite e periodontite <br>
+            Radiografias dentárias <br>
+            pacientes ficticios <br>
+            Aplicação de flúor <br>
             Consultas de avaliação
-            Estética dental (facetas, lentes de contato)
+            Estética dental (facetas, lentes de contato) <br>
             Tratamentos de bruxismo</p>
       </div>
+      <!--FIM LISTA SERVIÇOS-->
 
       <!--INICIO DOS SLIDES-->
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
          <div class="carousel-inner">
             <div class="carousel-item active">
-               <img class="d-block w-100" src="interatividade/assets/sorriso1.jpg"
-                  alt="First slide">
+               <img class="d-block w-100" src="interatividade/assets/sorriso1.jpg" alt="First slide">
                <p>Limparam meus dentes podres de tanto comer doce</p>
             </div>
             <div class="carousel-item">
-               <img class="d-block w-100" src="interatividade/assets/sorriso2.jpg"
-                  alt="Second slide">
+               <img class="d-block w-100" src="interatividade/assets/sorriso2.jpg" alt="Second slide">
                <p>Minha dentadura ficou incrivel cara, tão natural</p>
             </div>
             <div class="carousel-item">
-               <img class="d-block w-100" src="interatividade/assets/sorriso3.jpg"
-                  alt="Third slide">
+               <img class="d-block w-100" src="interatividade/assets/sorriso3.jpg" alt="Third slide">
                <p>Fiz claremento com a ana, ela tem mãos magicas</p>
             </div>
          </div>
       </div>
       <!--FIM DO SLIDE DE SORRISOS-->
 
+      <!--INICIO FORMULARIOS-->
       <div name="contato">
          <div id="nomecima"></div>
          <form id="gmail" action="https://formsubmit.co/entonydias07@gmail.com" method="POST">
@@ -91,23 +100,26 @@
             <button type="submit">ENVIAR</button>
          </form>
       </div>
+      <!--FIM FORMULARIOS-->
    </main>
+  <!--FIM PAGINA PRINCIPAL-->
 
-   <footer>
-      <ul>
-         <li> <a id="github" href="https://github.com/EntonyDias" target="_blank">
-               <ion-icon name="logo-github" size="large"></ion-icon> EntonyDias</a></li> 
-         <li> <a id="linkedin" href="https://www.linkedin.com/in/higor-da-silva-4ab854289/" target="_blank">
-             <ion-icon name="logo-linkedin" size="large"></ion-icon>Entony</a></li>
+   <!--INICIO DO FOOTER-->
+   <footer style="background-color: #1c3f60; padding-top: 8px; align-content: end; text-align: center;">
+      <a id="github" href="https://github.com/EntonyDias" target="_blank">
+               <ion-icon name="logo-github" size="large"></ion-icon> EntonyDias</a>
+      <a id="linkedin" href="https://www.linkedin.com/in/entony-dias-5307241a4/" target="_blank">
+               <ion-icon name="logo-linkedin" size="large"></ion-icon>Entony</a>
 
-       </ul>
-       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-     </div>
-     <p>&copy; 2024 Sorriso Perfeito. Todos os direitos reservados.</p>
+      
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      </div>
+      <p>&copy; 2024 Sorriso Perfeito. Todos os direitos reservados.</p>
    </footer>
+   <!--FIM DO FOOTER-->
 
-
+   <!--INICIO SCRIPTS-->
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"></script>
@@ -118,8 +130,8 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
    <script src="./scripts/script.js"></script>
+<!--FIM DO SCRIPTS-->
+
 </body>
-
-
 
 </html>
