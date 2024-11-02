@@ -13,6 +13,9 @@ html, body {
    background-color: aliceblue;
    overflow-y: scroll;
    scrollbar-width: none;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
 }
 
 header {
@@ -21,7 +24,7 @@ header {
    top: 0;
    text-align: center;
    width: 100%;
-   z-index: 8888;
+   z-index: 88;
    font-size: large;
 }
 
@@ -31,7 +34,7 @@ main {
 
 .Home {
    text-align: center;
-   background-color: aqua;
+   background-color: rgb(0, 183, 255);
 }
 
 #TextMainHome {
@@ -39,6 +42,17 @@ main {
    display: flex;
    justify-content: center;
    font-size: x-large;
+}
+
+#textDestaque1{
+   float:inline-start;
+   text-align: center;
+   margin-right: 3px;
+}
+
+#textDestaque2{
+   color: rgb(127, 255, 155);
+   text-align: start;
 }
 
 #textAbout {
@@ -58,14 +72,31 @@ main {
    margin: 1px;
 }
 
+#serviceTitle{
+   font-size: x-large;
+}
+
 .carousel-item img {
    max-width: 200px;
    max-height: 300px;
 }
 
+#message {
+   width: 300px;
+}
+
+#formsBaixo{
+   margin-top: 5px;
+}
+
 footer {
    display: flex;
-   background-color: #1c3f60;
+   background-color: #275885;
+   bottom: 0;
+   width: 100%;
+   padding-top: 8px;
+   align-content: end;
+   text-align: center;
 }
 
 footer p {
@@ -75,10 +106,12 @@ footer p {
 #github{
    float: inline-start;
    padding-left: 18%;
+   color: aquamarine;
 }
 
 #linkedin {
    float: inline-end;
    padding-right: 18%;
+   color: aquamarine;
 }
 

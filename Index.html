@@ -30,7 +30,7 @@
             <p id="TextMainHome">
                Estamos comprometidos em transformar sorrisos e promover a saúde bucal de nossos pacientes.
             </p>
-             
+
          </div>
 
          <div class="homeBaixo">
@@ -41,32 +41,35 @@
                ao
                seu bem-estar. Venha nos visitar e descubra como podemos ajudar a manter seu sorriso saudável e radiante!
             </p>
-            <p id="textDestaque">Serviços em Destaque: Limpeza dental, Restaurações, Clareamento Dental</p>
+            <p id="textDestaque1">Serviços em Destaque:</p>
+            <p id="textDestaque2">Limpeza dental, Restaurações, Clareamento Dental</p>
          </div>
-         
+
       </div>
       <!--FIM HOME-->
 
 
       <!--LISTA SERVICOS-->
       <div name="ListaServico">
-         <p>Serviços: <br>
-            Limpeza dental <br>
-            Restaurações <br>
-            Tratamento de canal <br>
-            Extração de dentes <br>
-            Clareamento dental <br>
-            Ortodontia (aparelhos) <br>
-            Prótese dentária <br>
-            Implantes dentários <br>
-            Odontopediatria <br>
-            Tratamento de gengivite e periodontite <br>
-            Radiografias dentárias <br>
-            pacientes ficticios <br>
-            Aplicação de flúor <br>
-            Consultas de avaliação
-            Estética dental (facetas, lentes de contato) <br>
-            Tratamentos de bruxismo</p>
+         <p id="serviceTitle">Serviços: </p>
+         <ul id="serviceList">
+            <li> Limpeza dental </li>
+            <li> Restaurações </li>
+            <li> Tratamento de canal </li>
+            <li> Extração de dentes </li>
+            <li> Clareamento dental </li>
+            <li> Ortodontia (aparelhos) </li>
+            <li> Prótese dentária </li>
+            <li> Implantes dentários </li>
+            <li> Odontopediatria </li>
+            <li> Tratamento de gengivite e periodontite </li>
+            <li> Radiografias dentárias </li>
+            <li> pacientes ficticios </li>
+            <li> Aplicação de flúor </li>
+            <li> Consultas de avaliação </li>
+            <li> Estética dental (facetas, lentes de contato) </li>
+            <li> Tratamentos de bruxismo</li>
+         </ul>
       </div>
       <!--FIM LISTA SERVIÇOS-->
 
@@ -91,27 +94,30 @@
 
       <!--INICIO FORMULARIOS-->
       <div name="contato">
-         <div id="nomecima"></div>
          <form id="gmail" action="https://formsubmit.co/entonydias07@gmail.com" method="POST">
-            <p>Deixe um feedback</p>
-            <input type="text" name="name" placeholder="Digite seu nome" required>
-            <input type="email" name="email" placeholder="Digite seu e-mail" required>
-            <input type="text" name="message" placeholder="Escreva seu feedback" required>
-            <button type="submit">ENVIAR</button>
+            <div id="contatoCima">
+               <p>Deixe um feedback</p>
+               <input type="text" name="name" placeholder="Digite seu nome" required>
+               <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div id="formsBaixo">
+               <input type="text" name="message" id="message" placeholder="Escreva seu feedback" required>
+               <button type="submit">ENVIAR</button>
          </form>
+      </div>
       </div>
       <!--FIM FORMULARIOS-->
    </main>
-  <!--FIM PAGINA PRINCIPAL-->
+   <!--FIM PAGINA PRINCIPAL-->
 
    <!--INICIO DO FOOTER-->
-   <footer style="background-color: #1c3f60; padding-top: 8px; align-content: end; text-align: center;">
+   <footer>
       <a id="github" href="https://github.com/EntonyDias" target="_blank">
-               <ion-icon name="logo-github" size="large"></ion-icon> EntonyDias</a>
+         <ion-icon name="logo-github" size="large"></ion-icon> EntonyDias</a>
       <a id="linkedin" href="https://www.linkedin.com/in/entony-dias-5307241a4/" target="_blank">
-               <ion-icon name="logo-linkedin" size="large"></ion-icon>Entony</a>
+         <ion-icon name="logo-linkedin" size="large"></ion-icon>Entony</a>
 
-      
+
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </div>
@@ -130,7 +136,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
    <script src="./scripts/script.js"></script>
-<!--FIM DO SCRIPTS-->
+   <!--FIM DO SCRIPTS-->
 
 </body>
 
