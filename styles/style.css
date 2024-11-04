@@ -1,16 +1,11 @@
-* {
-   margin: 0;
-   padding: 0;
-}
-
-html, body {
+html,
+body {
    margin: 0;
    padding: 0;
    color: black;
    font-family: "Roboto", sans-serif;
    font-weight: 100;
    font-style: normal;
-   background-color: aliceblue;
    overflow-y: scroll;
    scrollbar-width: none;
    display: flex;
@@ -29,7 +24,7 @@ header {
 }
 
 main {
-   background-color: aliceblue;
+   background-color: rgb(61, 165, 148);
 }
 
 .Home {
@@ -44,15 +39,16 @@ main {
    font-size: x-large;
 }
 
-#textDestaque1{
-   float:inline-start;
+#textDestaque1 {
+   float: inline-start;
    text-align: center;
    margin-right: 3px;
 }
 
-#textDestaque2{
+#textDestaque2 {
    color: rgb(127, 255, 155);
    text-align: start;
+   margin: 0;
 }
 
 #textAbout {
@@ -72,8 +68,52 @@ main {
    margin: 1px;
 }
 
-#serviceTitle{
+.ListaServico {
+   background-color:aliceblue;
+}
+
+#serviceTitle {
    font-size: x-large;
+   margin-left: 18%;
+}
+
+#serviceList {
+   margin: 15%;
+   margin-top: 0%;
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin-bottom: 15px;
+   padding-bottom: 15px;
+}
+
+li {
+   max-width: 200px;
+   min-width: 200px;
+   overflow-wrap: break-word;
+   word-wrap: break-word;
+   border-radius: 10px;
+   border-color: rgb(92, 92, 92);
+   border-style: solid;
+   text-align: center;
+}
+
+li img {
+   max-width: 180px;
+   min-width: 180px;
+   max-height: 180px;
+   min-height: 180px;
+   margin-bottom: 10px;
+}
+
+
+#carouselExampleSlidesOnly {
+   max-width: 200px;
+   min-height: auto;
+   display: flex;
+   align-items: center;
+   margin: auto;
 }
 
 .carousel-item img {
@@ -81,11 +121,15 @@ main {
    max-height: 300px;
 }
 
+#contato{
+   text-align: center;
+}
+
 #message {
    width: 300px;
 }
 
-#formsBaixo{
+#formsBaixo {
    margin-top: 5px;
 }
 
@@ -103,7 +147,7 @@ footer p {
    margin-top: 8px;
 }
 
-#github{
+#github {
    float: inline-start;
    padding-left: 18%;
    color: aquamarine;
@@ -114,4 +158,3 @@ footer p {
    padding-right: 18%;
    color: aquamarine;
 }
-
