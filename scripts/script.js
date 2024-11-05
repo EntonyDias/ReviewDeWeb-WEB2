@@ -12,3 +12,4 @@ function visibilidadeAbout() {
     buttonAbout.textContent = '⬇️Sobre⬇️'
   }
 }
+

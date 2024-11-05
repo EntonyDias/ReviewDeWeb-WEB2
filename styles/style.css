@@ -97,6 +97,7 @@ li {
    border-color: rgb(92, 92, 92);
    border-style: solid;
    text-align: center;
+   margin: auto;
 }
 
 li img {
@@ -114,6 +115,8 @@ li img {
    display: flex;
    align-items: center;
    margin: auto;
+   color:#011865;
+   text-align: center;
 }
 
 .carousel-item img {
@@ -131,6 +134,10 @@ li img {
 
 #formsBaixo {
    margin-top: 5px;
+}
+
+#contatoCima p{
+   margin-bottom: 0;
 }
 
 footer {
@@ -157,4 +164,21 @@ footer p {
    float: inline-end;
    padding-right: 18%;
    color: aquamarine;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 600px) {
+   #textDestaque2 {
+     text-align: center;
+   }
+   #textDestaque2 {
+      text-align: center;
+    }
+   #buttonAbout{
+      place-content: ⬆️;
+   }
+   #textAbout{
+      display: flex;
+   }
 }
